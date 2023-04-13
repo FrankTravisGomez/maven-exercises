@@ -7,12 +7,12 @@ public class MavExercises {
         System.out.print("Enter something: ");
         String userInput = scanner.nextLine();
 
-        System.out.println("You entered: " + userInput );
+        System.out.println("You entered: " + userInput);
 
         if (StringUtils.isNumeric(userInput)) {
             System.out.println(userInput + ": is a number");
         } else {
-            System.out.println(  userInput + ": is not a number");
+            System.out.println(userInput + ": is not a number");
         }
 
         System.out.println("Flipped Case: " + StringUtils.swapCase(userInput));
